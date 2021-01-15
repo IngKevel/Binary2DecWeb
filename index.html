@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinaryToDecimal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/images/BinDecIcon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://keveldev.com" target="-blank">
+                <img class="logo"  src="assets/images/LogoPortfolio.png">
+            </a>
+        </nav>
+        <div class="imagen-centrar">
+            <img id="img-principal" src="assets/images/BinDecIconPS.png">
+        </div>
+        <section class="text-header">
+            <h1>BinaryToDecimal</h1>
+        </section>
+        <br>
+        <div class="wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.98,-1.48 C114.27,182.07 266.65,28.12 503.67,21.22 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #eeeeee;"></path></svg></div>
+    </header>
+    <form class="dataarea" id="dataarea">
+        <label>Ingrese numero binario:</label><br>
+        <input type="text" id="binaryNumber" name="binaryNumber" class="validate"><br>
+        <br>
+        <label>Numero decimal:</label><br>
+        <label id="decimalNumber" name="decimalNumber">0</label><br>
+        <br>
+        <button class="conversor" type="button" onclick="convertir()">Convertir</button>
+        <h2>Resultado:</h2>
+        <textarea id="historyTotal" disabled>0 = 0</textarea><br>
+        <button type="button" onclick="mostrarDecimal()" class="convertidor">Decimal a binario</button>
+    </form>
+    <form class="dataarea2" id="dataarea2">
+        <label>Ingrese numero decimal:</label><br>
+        <input type="text" id="decimalNumber2" name="decimalNumber2" class="validate"><br>
+        <br>
+        <label>Numero binario:</label><br>
+        <label id="binaryNumber2" name="binaryNumber2">0</label><br>
+        <br>
+        <button class="conversor" type="button" onclick="convertirDecimal()">Convertir</button>
+        <h2>Resultado:</h2>
+        <textarea id="historyTotal2" disabled>0 = 0</textarea><br>
+        <button type="button" onclick="mostrarBinario()" class="convertidor">Binario a decimal</button>
+    </form>
+    <footer>
+        <div class="links">
+            <a href="https://lacuevadelbot.com/" target="-blank">
+                <img class="img-redes" src="assets/images/lcdb.png">
+                <p>LaCuevaDelBot</p>
+            </a>
+            <a href="https://lacuevadelbot.com/" target="-blank">
+                <img class="img-redes" src="assets/images/GitHub-Logo.png">
+                <p>Repositorio de esta App Web</p>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.lacuevadelbot.binary2dec" target="-blank">
+                <img class="img-redes" src="assets/images/logo-playstore.png">
+                <p>Descargar App</p>
+            </a>
+        </div>
+        <p>Desarrollado y diseñado por Kevin Vélez</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

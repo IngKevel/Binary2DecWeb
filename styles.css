@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #eeeeee;
+}
+
+nav {
+    background-color: rgb(168, 0, 0);
+}
+
+.logo {
+    width: 70px;
+}
+
+.text-header {
+    color: #eeeeee;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imagen-centrar {
+    margin-top: 10px;
+}
+
+#img-principal {
+    max-width: 120px;
+    display:block;
+    margin:auto;
+}
+
+header {
+    background-color: #3b3b3b;
+}
+
+.wave {
+    height: 120px;
+}
+
+.dataarea {
+    text-align: center;
+    margin-bottom: 2vw;
+    display: block;
+}
+
+.dataarea label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dataarea input {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.dataarea .conversor {
+    background: none;
+    color: #3b3b3b;
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(168, 0, 0);
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.dataarea .convertidor {
+    background: none;
+    color: #3b3b3b;
+    width: 140px;
+    height: 50px;
+    border: 1px solid rgb(168, 0, 0);
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.dataarea button:hover {
+    background: #3b3b3b;
+    color: #eeeeee;
+}
+
+.dataarea h2 {
+    margin-top: 20px;
+}
+
+.dataarea textarea {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dataarea2 {
+    display: none;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.dataarea2 label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dataarea2 input {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.dataarea2 .conversor {
+    background: none;
+    color: #3b3b3b;
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(168, 0, 0);
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.dataarea2 .convertidor {
+    background: none;
+    color: #3b3b3b;
+    width: 140px;
+    height: 50px;
+    border: 1px solid rgb(168, 0, 0);
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.dataarea2 button:hover {
+    background: #3b3b3b;
+    color: #eeeeee;
+}
+
+.dataarea2 h2 {
+    margin-top: 20px;
+}
+
+.dataarea2 textarea {
+    text-align: center;
+    font-size: 30px;
+}
+
+.links {
+    display: flex;
+}
+
+.img-redes {
+    max-width: 60px;
+}
+
+footer {
+    background-color: #3b3b3b;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.links {
+    justify-content: space-around;
+    display: flex;
+}
+
+footer p {
+    color: #eeeeee;
+    text-align: center;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 40px;
+    }
+
+    #img-principal {
+        max-width: 60px;
+    }
+
+    .img-redes {
+        max-width: 40px;
+    }
+
+    .dataarea label {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    .dataarea input {
+        font-size: 3vw;
+    }
+
+    .dataarea textarea {
+        font-size: 3vw;
+    }
+
+    .dataarea2 label {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    .dataarea2 input {
+        font-size: 3vw;
+    }
+
+    .dataarea2 textarea {
+        font-size: 3vw;
+    }
+
+    .text-header {
+        margin-top: 5px;
+    }
+
+    .text-header h1 {
+        font-size: 20px;
+    }
+
+    .wave {
+        height: 60px;
+    }
+}
