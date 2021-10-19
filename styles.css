@@ -152,11 +152,27 @@ header {
 }
 
 .links {
-    display: flex;
+    max-inline-size: 120px;
+    padding-top: 7px;
+    margin: auto;
 }
 
 .img-redes {
-    max-width: 60px;
+    max-width: 40px;
+}
+
+.img-redes-store {
+    max-width: 35px;
+}
+
+.img-redes:hover {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+}
+
+.img-redes-store:hover {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
 }
 
 footer {
@@ -165,6 +181,7 @@ footer {
     bottom: 0px;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 1em;
 }
 
 .links {
